@@ -1,0 +1,194 @@
+.logo:hover{
+  color: pink;
+    cursor:pointer;
+     
+}
+.logo{
+    padding: 2px 2px 2px 2px;
+
+}
+
+.logos{
+    padding: 1px 1px 1px 1px;
+}
+.logo1{
+    padding: 1px 1px 1px 1px;
+}
+.a2{
+color: black;
+}
+.a3:hover{
+    
+    background-color: navy;
+    border-radius: 4px;
+    color: white;
+    
+}
+.a3:active{
+    background-color: pink;
+}
+
+.title1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+}
+.text1:hover{
+ color: pink;
+ cursor: pointer;
+
+}
+.texta{
+    font-family: 'Times New Roman', Times, serif;
+    
+
+}
+@keyframes anima{
+    from{color:#17a2b8;}
+    to{color: white;}
+    from{font-size:40px ;}
+    to{font-size: 41px;}
+
+    
+}
+.ani1{
+    color: #17a2b8;
+    animation-name: anima;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+@keyframes animap{
+    from{color:#17a2b8;}
+    to{color: white;}
+    
+
+    
+}
+.anip{
+    color: #17a2b8;
+    animation-name: animap;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+.text4{
+    padding: 2px 2px 2px 2px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.text1{
+    padding: 2px 2px 2px 2px;
+}
+.text2{
+    padding: 2px 2px 2px 2px;
+}
+.text2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.divid{
+    margin-bottom: 3px;
+}
+.divid1{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.divid8{
+    padding: 0 2px;
+}
+.slide1{
+    scroll-behavior: smooth;
+}
+.line1{
+   
+    font-size: 20px;
+}
+
+.cont1{
+    text-align: center;
+}
+.cont2{
+    margin-bottom: 8px;
+}
+.cont3{
+    padding: 50px 50px 50px 50px;
+    
+}
+.img12:hover{
+    transform:scale(1.3) ;
+}
+.footer{
+    margin-top: auto;
+}
+body{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+html{
+    height: 100%;
+}
+.scroll12{
+    position: fixed;
+    bottom: 10px;
+    right: 5px;
+}
+.spcont{
+    padding: 2px 2px 2px 2px;
+    display: flex;
+    justify-content: space-around;
+    float: left;
+    flex-wrap: wrap;
+}
+.conter1{
+    background-color: lightgray;
+    padding: 2px 2px 2px 2px;
+    display: flex;
+    float: left;
+    justify-content: space-around;
+    align-self: center;
+}
+.anaa:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+
+}
+@keyframes notice{
+    0%{color:#17a2b8;}
+    50%{color: red;}
+    100%{ color: skyblue}
+   
+
+    
+}
+.ani2{
+    color: #17a2b8;
+    animation-name: notice;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+@keyframes choose{
+    0%{color: yellowgreen;}
+    50%{ color:#17a2b8;}
+    100%{color:#6f42c1;}
+    
+   
+
+    
+}
+.bina{
+    color: #17a2b8;
+    animation-name: choose;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+
+
+
+
