@@ -44,7 +44,7 @@ color: black;
 }
 @keyframes anima{
     from{color:#17a2b8;}
-    to{color: white;}
+    to{color:skyblue;}
     from{font-size:40px ;}
     to{font-size: 41px;}
 
@@ -52,6 +52,7 @@ color: black;
 }
 .ani1{
     color: #17a2b8;
+    padding: 2px 2px 2px 2px;
     animation-name: anima;
     animation-duration: 2s;
     animation-iteration-count: infinite;
@@ -75,6 +76,7 @@ color: black;
 }
 .text4{
     padding: 2px 2px 2px 2px;
+    font-size: small;
     font-family: 'Times New Roman', Times, serif;
     color: white;
 }
@@ -108,7 +110,9 @@ color: black;
 
 .cont1{
     text-align: center;
+    background-image: url(https://cdn.imgbin.com/22/1/22/imgbin-blue-sky-and-white-clouds-Bcf6hG2p6hdnD14MnnkH3XCFq.jpg);
 }
+
 .cont2{
     margin-bottom: 8px;
 }
@@ -151,8 +155,10 @@ html{
     align-self: center;
 }
 .anaa:hover{
-    transform: scale(1.2);
+    transform: scale(1);
     cursor: pointer;
+    color: white;
+    background-color: #17a2b8;
 
 }
 @keyframes notice{
@@ -166,6 +172,22 @@ html{
 .ani2{
     color: #17a2b8;
     animation-name: notice;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+@keyframes covid{
+    0%{color:#28a745;}
+    50%{color: red;}
+    100%{ color: #28a745}
+   
+
+    
+}
+.coco{
+    color: #28a745;
+    animation-name: covid;
     animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -188,7 +210,23 @@ html{
     animation-direction: normal;
     animation-fill-mode: forwards;
 }
-
-
+.containeron{
+    display: flex;
+    float: left;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    align-items: center;
+} 
+.ppan{
+    padding: 5px 5px 5px 5px;
+}
+.textco{
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: darkgreen;
+}
 
 
